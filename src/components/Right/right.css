@@ -1,0 +1,123 @@
+.right__container {
+  width: 25%;
+  padding: 10px 10px 10px 20px;
+  color: white;
+  text-align: center;
+}
+
+.input__wrapper {
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.input__wrapper input {
+  border: none;
+  outline: none;
+  padding: 15px 15px 15px 50px;
+  border-radius: 20px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(60, 180, 30, 0.6);
+  color: white;
+}
+.input__wrapper span {
+  position: absolute;
+  left: 25px;
+  top: 22px;
+  font-size: 1.4rem;
+  color: rgba(60, 180, 30, 0.6);
+}
+.input__wrapper span * {
+  font-size: 1.4rem;
+}
+
+.right__happening {
+  border-radius: 10px;
+  background: rgba(21, 32, 20, 0.5);
+  text-align: left;
+  padding: 10px;
+}
+.happening__title {
+  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding: 12px 10px;
+  border-bottom: 1px solid white;
+}
+.card header {
+  display: flex;
+  justify-content: space-between;
+}
+.card header p,
+.card article p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #eaeaea;
+  margin: 2px 0px;
+}
+.card article h5 {
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.showmore {
+  padding: 12px 10px;
+}
+.showmore * {
+  font-weight: 300;
+  color: rgba(60, 180, 30, 0.4);
+  cursor: pointer;
+}
+
+.card__follow {
+  padding: 10px;
+  text-align: left;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+.card__follow header {
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.card__follow .user {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.card__follow .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.card__follow .user .user__text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card__follow .user .user__text p {
+  font-size: 0.8rem;
+}
+.card__follow .user button.follow_btn {
+  border: none;
+  /* padding: 2px 10px; */
+  border-radius: 20px;
+  width: 8rem;
+  background: transparent;
+  border: 1px solid rgba(60, 180, 30, 0.6);
+  color: white;
+  cursor: pointer;
+}
+.card__follow .user button.follow_btn:hover {
+  background: rgba(60, 180, 30, 0.6);
+}
+@media (max-width: 720px) {
+  .right__container {
+    display: none;
+  }
+}

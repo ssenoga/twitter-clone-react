@@ -1,5 +1,91 @@
 .left__container {
   width: 25%;
-  padding: 10px 10px 10px 30px;
-  background: green;
+  padding: 10px 10px 10px 20px;
+  color: white;
+  /* background: green; */
+}
+.left__text {
+  padding: 5px 10px;
+  margin-top: 0;
+}
+.left__text li {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.left__text li * {
+  font-size: 1.6rem;
+}
+.left__text li:hover {
+  border-radius: 20px;
+  color: rgba(60, 180, 30, 0.6);
+  background: rgba(60, 180, 30, 0.1);
+}
+.left__text li span {
+  margin-left: 10px;
+  font-size: 1.3rem !important;
+  color: white;
+}
+.list__icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 5px 5px 0px 10px;
+}
+.list__icon:hover {
+  padding: -10px;
+  color: rgba(60, 180, 30, 0.6);
+  background: rgba(60, 180, 30, 0.1);
+}
+
+.button__tweet {
+  padding: 15px;
+  border-radius: 30px;
+  width: 15rem;
+  border: none;
+  background: rgba(60, 180, 30, 0.6);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.button__tweet:hover {
+  color: rgba(60, 180, 30, 0.6);
+  background: rgba(60, 180, 30, 0.1);
+}
+
+.profile__down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.profile__down:hover {
+  border-radius: 20px;
+  background: rgba(60, 180, 30, 0.1);
+}
+
+.profile__down img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+@media (max-width: 720px) {
+  .left__text li span {
+    display: none;
+  }
+  .button__tweet {
+    width: 10rem;
+  }
+  .profile__down {
+    padding: 10px !important;
+    align-items: center;
+  }
+  .profile__names {
+    display: none;
+  }
 }
