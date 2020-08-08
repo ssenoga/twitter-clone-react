@@ -38,7 +38,7 @@ export default function Central() {
             </div>
 
             <div className="tweet__buttons">
-              <button disabled="true">Tweet</button>
+              <button>Tweet</button>
             </div>
           </div>
         </div>

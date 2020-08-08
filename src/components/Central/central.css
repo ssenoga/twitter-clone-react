@@ -124,3 +124,10 @@
   align-items: center;
   margin-top: 10px;
 }
+.tweet__buttons div {
+  color: var(--bottom-line-color);
+  cursor: pointer;
+}
+.tweet__buttons div:hover {
+  color: #eaeaea;
+}
