@@ -18,7 +18,7 @@
   padding: 15px 15px 15px 50px;
   border-radius: 20px;
   width: 100%;
-  background: transparent;
+  background: var(--secondary-bg-color);
   border: 1px solid rgba(60, 180, 30, 0.6);
   color: white;
 }
@@ -35,19 +35,19 @@
 
 .right__happening {
   border-radius: 10px;
-  background: rgba(21, 32, 20, 0.5);
+  background: var(--secondary-bg-color);
   text-align: left;
   padding: 10px;
 }
 .happening__title {
   padding: 10px 10px 20px 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--bottom-line-color);
   display: flex;
   justify-content: space-between;
 }
 .card {
   padding: 12px 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--bottom-line-color);
 }
 .card header {
   display: flex;
@@ -74,22 +74,21 @@
 }
 
 .card__follow {
-  padding: 10px;
   text-align: left;
   border-radius: 20px;
-  border: 1px solid white;
   margin-top: 20px;
+  background: var(--secondary-bg-color);
 }
 .card__follow header {
-  padding: 10px;
-  border-bottom: 1px solid white;
+  padding: 15px;
+  border-bottom: 1px solid var(--bottom-line-color);
 }
 
 .card__follow .user {
   display: flex;
   padding: 10px;
   margin-bottom: 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--bottom-line-color);
 }
 .card__follow .user img {
   width: 40px;

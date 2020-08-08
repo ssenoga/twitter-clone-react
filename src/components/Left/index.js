@@ -68,7 +68,7 @@ export default function Left() {
           </p>
           <p>@senoga4real</p>
         </div>
-        <div>
+        <div id="keydownArrow">
           <KeyboardArrowDownIcon />
         </div>
       </div>

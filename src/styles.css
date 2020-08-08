@@ -1,10 +1,17 @@
+:root {
+  --main-bg-color: rgb(21, 32, 43);
+  --secondary-bg-color: #141c24;
+  --bottom-line-color: #4a5259;
+  --twitter-color: rgba(60, 180, 30, 0.6);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(21, 32, 43);
+  background-color: var(--main-bg-color);
 }
 ul {
   list-style: none;
@@ -14,4 +21,10 @@ ul {
   position: relative;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .App {
+    margin-right: 10px;
+  }
 }

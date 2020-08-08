@@ -75,6 +75,13 @@
 }
 
 @media (max-width: 720px) {
+  .left__container {
+    width: 20%;
+    padding: 5px;
+  }
+  .button__tweet {
+    display: none;
+  }
   .left__text li span {
     display: none;
   }
@@ -86,6 +93,9 @@
     align-items: center;
   }
   .profile__names {
+    display: none;
+  }
+  #keydownArrow {
     display: none;
   }
 }
